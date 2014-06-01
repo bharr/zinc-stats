@@ -21,7 +21,7 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .ARM.exidx.text.task_scheduler
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E
+ .ARM.exidx.text._ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .text.rust_stack_exhausted
                 0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
@@ -33,9 +33,9 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .ARM.exidx.text.kill_current_task
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .ARM.exidx.text._ZN7failure5fail_20h5cee15c1838990a0fWv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
@@ -242,15 +242,15 @@ Linker script and memory map
                 0x0000000000000620       0x8e /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
                 0x0000000000000620                task_scheduler
  *fill*         0x00000000000006ae        0x2 
- .text._ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E
+ .text._ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E
                 0x00000000000006b0      0x13e /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x00000000000007ee        0x2 
  .text.kill_current_task
                 0x00000000000007f0       0x42 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000832        0x2 
- .text._ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E
+ .text._ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E
                 0x0000000000000834       0x60 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .text._ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E
+ .text._ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E
                 0x0000000000000894       0x6c /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .text._ZN7failure5fail_20h5cee15c1838990a0fWv11v0.11.0.preE
                 0x0000000000000900       0x26 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
@@ -313,16 +313,16 @@ Linker script and memory map
  .rodata.str449
                 0x0000000000000f08        0xb /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f13        0x1 
- .rodata.str583
+ .rodata.str584
                 0x0000000000000f14        0xa /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f1e        0x2 
- .rodata.str584
+ .rodata.str585
                 0x0000000000000f20        0x1 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f21        0x3 
- .rodata.str585
+ .rodata.str586
                 0x0000000000000f24        0xa /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f2e        0x2 
- .rodata.str586
+ .rodata.str587
                 0x0000000000000f30        0x5 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f35        0x3 
  .rodata..Lswitch.table48
@@ -331,7 +331,7 @@ Linker script and memory map
 .data           0x0000000010000000       0x34 load address 0x0000000000000f48
                 0x0000000010000000                _data = .
  *(SORT(.data*))
- .data._ZN2os4task5Tasks20hf9f3417b1bcbda78qhe4v0.0E
+ .data._ZN2os4task5Tasks20ha8d8e6fd9d8d83f0qhe4v0.0E
                 0x0000000010000000       0x34 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
                 0x0000000010000034                . = ALIGN (0x4)
                 0x0000000010000034                _edata = .

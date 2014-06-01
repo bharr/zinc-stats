@@ -246,7 +246,7 @@ Linker script and memory map
 .data           0x0000000010000000       0x34 load address 0x0000000000000358
                 0x0000000010000000                _data = .
  *(SORT(.data*))
- .data._ZN2os4task5Tasks20hf9f3417b1bcbda78qhe4v0.0E
+ .data._ZN2os4task5Tasks20ha8d8e6fd9d8d83f0qhe4v0.0E
                 0x0000000010000000       0x34 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
                 0x0000000010000034                . = ALIGN (0x4)
                 0x0000000010000034                _edata = .

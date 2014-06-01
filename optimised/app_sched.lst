@@ -295,7 +295,7 @@ Disassembly of section .text:
  364:	9308      	str	r3, [sp, #32]
  366:	f2c1 0000 	movt	r0, #4096	; 0x1000
  36a:	f000 fbb9 	bl	ae0 <memcpy>
- 36e:	f000 fa0d 	bl	78c <_ZN2os4task5setup20hc87a4a6eb794a60eXie4v0.0E>
+ 36e:	f000 fa0d 	bl	78c <_ZN2os4task5setup20h36d2553064332c73Xie4v0.0E>
  372:	f04fdefe 			; <UNDEFINED> instruction: 0xf04fdefe
  376:	0e00      	lsrs	r0, r0, #24
  378:	2401      	movs	r4, #1
@@ -410,10 +410,10 @@ Disassembly of section .text:
  4a0:	2005      	movs	r0, #5
  4a2:	900f      	str	r0, [sp, #60]	; 0x3c
  4a4:	4640      	mov	r0, r8
- 4a6:	f000 fa85 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>
+ 4a6:	f000 fa85 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>
  4aa:	4640      	mov	r0, r8
  4ac:	4629      	mov	r1, r5
- 4ae:	f000 fab1 	bl	a14 <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E>
+ 4ae:	f000 fab1 	bl	a14 <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E>
  4b2:	f640 3094 	movw	r0, #2964	; 0xb94
  4b6:	a90c      	add	r1, sp, #48	; 0x30
  4b8:	f2c0 0000 	movt	r0, #0
@@ -421,7 +421,7 @@ Disassembly of section .text:
  4be:	2009      	movs	r0, #9
  4c0:	900d      	str	r0, [sp, #52]	; 0x34
  4c2:	4640      	mov	r0, r8
- 4c4:	f000 fa76 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>
+ 4c4:	f000 fa76 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>
  4c8:	f240 5521 	movw	r5, #1313	; 0x521
  4cc:	a808      	add	r0, sp, #32
  4ce:	2201      	movs	r2, #1
@@ -429,13 +429,13 @@ Disassembly of section .text:
  4d4:	9400      	str	r4, [sp, #0]
  4d6:	f2c0 0500 	movt	r5, #0
  4da:	4629      	mov	r1, r5
- 4dc:	f000 f9a4 	bl	828 <_ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E>
+ 4dc:	f000 f9a4 	bl	828 <_ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E>
  4e0:	a804      	add	r0, sp, #16
  4e2:	4629      	mov	r1, r5
  4e4:	2202      	movs	r2, #2
  4e6:	f44f 7300 	mov.w	r3, #512	; 0x200
  4ea:	9400      	str	r4, [sp, #0]
- 4ec:	f000 f99c 	bl	828 <_ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E>
+ 4ec:	f000 f99c 	bl	828 <_ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E>
  4f0:	f248 4780 	movw	r7, #33920	; 0x8480
  4f4:	f640 39c0 	movw	r9, #3008	; 0xbc0
  4f8:	2415      	movs	r4, #21
@@ -447,7 +447,7 @@ Disassembly of section .text:
  508:	4629      	mov	r1, r5
  50a:	f8cd 9008 	str.w	r9, [sp, #8]
  50e:	9403      	str	r4, [sp, #12]
- 510:	f000 fa50 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>
+ 510:	f000 fa50 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>
  514:	68b0      	ldr	r0, [r6, #8]
  516:	68b1      	ldr	r1, [r6, #8]
  518:	1a09      	subs	r1, r1, r0
@@ -510,10 +510,10 @@ Disassembly of section .text:
  5aa:	2005      	movs	r0, #5
  5ac:	9007      	str	r0, [sp, #28]
  5ae:	4628      	mov	r0, r5
- 5b0:	f000 fa00 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>
+ 5b0:	f000 fa00 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>
  5b4:	4628      	mov	r0, r5
  5b6:	4649      	mov	r1, r9
- 5b8:	f000 fa2c 	bl	a14 <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E>
+ 5b8:	f000 fa2c 	bl	a14 <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E>
  5bc:	f640 3094 	movw	r0, #2964	; 0xb94
  5c0:	a904      	add	r1, sp, #16
  5c2:	f2c0 0000 	movt	r0, #0
@@ -521,7 +521,7 @@ Disassembly of section .text:
  5c8:	2009      	movs	r0, #9
  5ca:	9005      	str	r0, [sp, #20]
  5cc:	4628      	mov	r0, r5
- 5ce:	f000 f9f1 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>
+ 5ce:	f000 f9f1 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>
  5d2:	f248 4480 	movw	r4, #33920	; 0x8480
  5d6:	f640 3ab0 	movw	sl, #2992	; 0xbb0
  5da:	f10d 0808 	add.w	r8, sp, #8
@@ -537,14 +537,14 @@ Disassembly of section .text:
  5fa:	2010      	movs	r0, #16
  5fc:	9003      	str	r0, [sp, #12]
  5fe:	4628      	mov	r0, r5
- 600:	f000 f9d8 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>
+ 600:	f000 f9d8 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>
  604:	4628      	mov	r0, r5
  606:	4649      	mov	r1, r9
- 608:	f000 fa04 	bl	a14 <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E>
+ 608:	f000 fa04 	bl	a14 <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E>
  60c:	4628      	mov	r0, r5
  60e:	4639      	mov	r1, r7
  610:	e88d 0c00 	stmia.w	sp, {sl, fp}
- 614:	f000 f9ce 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>
+ 614:	f000 f9ce 	bl	9b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>
  618:	68b0      	ldr	r0, [r6, #8]
  61a:	68b1      	ldr	r1, [r6, #8]
  61c:	1a09      	subs	r1, r1, r0
@@ -552,14 +552,14 @@ Disassembly of section .text:
  620:	d3fb      	bcc.n	61a <_ZN4task20ha1ed6692363d03a5Zaa4v0.0E+0xfa>
  622:	e7e4      	b.n	5ee <_ZN4task20ha1ed6692363d03a5Zaa4v0.0E+0xce>
 
-00000624 <_ZN3hal9cortex_m35sched13task_finished20h7a0bf291412498e0pRd4v0.0E>:
+00000624 <_ZN3hal9cortex_m35sched13task_finished20hd17a7dba9039bca8pRd4v0.0E>:
  624:	b430      	push	{r4, r5}
  626:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  62a:	466d      	mov	r5, sp
  62c:	e594      	b.n	158 <main+0x8c>
  62e:	4004      	ands	r4, r0
  630:	42ac      	cmp	r4, r5
- 632:	d308      	bcc.n	646 <_ZN3hal9cortex_m35sched13task_finished20h7a0bf291412498e0pRd4v0.0E+0x22>
+ 632:	d308      	bcc.n	646 <_ZN3hal9cortex_m35sched13task_finished20hd17a7dba9039bca8pRd4v0.0E+0x22>
  634:	2400      	movs	r4, #0
  636:	2500      	movs	r5, #0
  638:	b500      	push	{lr}
@@ -571,14 +571,14 @@ Disassembly of section .text:
  648:	be00      	bkpt	0x0000
  64a:	4770      	bx	lr
 
-0000064c <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E>:
+0000064c <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E>:
  64c:	b430      	push	{r4, r5}
  64e:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  652:	466d      	mov	r5, sp
  654:	e594      	b.n	180 <main+0xb4>
  656:	4004      	ands	r4, r0
  658:	42ac      	cmp	r4, r5
- 65a:	d308      	bcc.n	66e <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x22>
+ 65a:	d308      	bcc.n	66e <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x22>
  65c:	24c0      	movs	r4, #192	; 0xc0
  65e:	2500      	movs	r5, #0
  660:	b500      	push	{lr}
@@ -594,13 +594,13 @@ Disassembly of section .text:
  67a:	4690      	mov	r8, r2
  67c:	4689      	mov	r9, r1
  67e:	2c00      	cmp	r4, #0
- 680:	d058      	beq.n	734 <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0xe8>
+ 680:	d058      	beq.n	734 <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0xe8>
  682:	2e00      	cmp	r6, #0
- 684:	f000 807c 	beq.w	780 <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x134>
+ 684:	f000 807c 	beq.w	780 <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x134>
  688:	2700      	movs	r7, #0
  68a:	ad1f      	add	r5, sp, #124	; 0x7c
  68c:	2f1f      	cmp	r7, #31
- 68e:	d860      	bhi.n	752 <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x106>
+ 68e:	d860      	bhi.n	752 <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x106>
  690:	4620      	mov	r0, r4
  692:	4631      	mov	r1, r6
  694:	f000 fa70 	bl	b78 <__aeabi_uidivmod>
@@ -608,10 +608,10 @@ Disassembly of section .text:
  69a:	fbb4 f4f6 	udiv	r4, r4, r6
  69e:	3701      	adds	r7, #1
  6a0:	2c00      	cmp	r4, #0
- 6a2:	d1f3      	bne.n	68c <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x40>
+ 6a2:	d1f3      	bne.n	68c <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x40>
  6a4:	1e7a      	subs	r2, r7, #1
  6a6:	2a00      	cmp	r2, #0
- 6a8:	db41      	blt.n	72e <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0xe2>
+ 6a8:	db41      	blt.n	72e <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0xe2>
  6aa:	2300      	movs	r3, #0
  6ac:	f04f 0e39 	mov.w	lr, #57	; 0x39
  6b0:	f04f 0a61 	mov.w	sl, #97	; 0x61
@@ -647,18 +647,18 @@ Disassembly of section .text:
  708:	9113      	str	r1, [sp, #76]	; 0x4c
  70a:	9614      	str	r6, [sp, #80]	; 0x50
  70c:	9415      	str	r4, [sp, #84]	; 0x54
- 70e:	d826      	bhi.n	75e <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x112>
+ 70e:	d826      	bhi.n	75e <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x112>
  710:	5caf      	ldrb	r7, [r5, r2]
  712:	2f0f      	cmp	r7, #15
- 714:	d828      	bhi.n	768 <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x11c>
+ 714:	d828      	bhi.n	768 <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x11c>
  716:	4543      	cmp	r3, r8
- 718:	d22c      	bcs.n	774 <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x128>
+ 718:	d22c      	bcs.n	774 <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x128>
  71a:	f85c 7027 	ldr.w	r7, [ip, r7, lsl #2]
  71e:	3a01      	subs	r2, #1
  720:	f1b2 3fff 	cmp.w	r2, #4294967295	; 0xffffffff
  724:	f809 7003 	strb.w	r7, [r9, r3]
  728:	f103 0301 	add.w	r3, r3, #1
- 72c:	dcca      	bgt.n	6c4 <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E+0x78>
+ 72c:	dcca      	bgt.n	6c4 <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E+0x78>
  72e:	b027      	add	sp, #156	; 0x9c
  730:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
  734:	f1b8 0f00 	cmp.w	r8, #0
@@ -697,14 +697,14 @@ Disassembly of section .text:
  786:	f000 f97b 	bl	a80 <_ZN7failure5fail_20h5cee15c1838990a0fWv11v0.11.0.preE>
 	...
 
-0000078c <_ZN2os4task5setup20hc87a4a6eb794a60eXie4v0.0E>:
+0000078c <_ZN2os4task5setup20h36d2553064332c73Xie4v0.0E>:
  78c:	b430      	push	{r4, r5}
  78e:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  792:	466d      	mov	r5, sp
  794:	e594      	b.n	2c0 <main+0x1f4>
  796:	4004      	ands	r4, r0
  798:	42ac      	cmp	r4, r5
- 79a:	d308      	bcc.n	7ae <_ZN2os4task5setup20hc87a4a6eb794a60eXie4v0.0E+0x22>
+ 79a:	d308      	bcc.n	7ae <_ZN2os4task5setup20h36d2553064332c73Xie4v0.0E+0x22>
  79c:	2420      	movs	r4, #32
  79e:	2500      	movs	r5, #0
  7a0:	b500      	push	{lr}
@@ -739,7 +739,7 @@ Disassembly of section .text:
  7f0:	9000      	str	r0, [sp, #0]
  7f2:	a802      	add	r0, sp, #8
  7f4:	f2c0 0100 	movt	r1, #0
- 7f8:	f000 f816 	bl	828 <_ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E>
+ 7f8:	f000 f816 	bl	828 <_ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E>
  7fc:	9802      	ldr	r0, [sp, #8]
  7fe:	f240 018c 	movw	r1, #140	; 0x8c
  802:	f2c1 0100 	movt	r1, #4096	; 0x1000
@@ -755,14 +755,14 @@ Disassembly of section .text:
  822:	6041      	str	r1, [r0, #4]
  824:	0000defe 	strdeq	sp, [r0], -lr
 
-00000828 <_ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E>:
+00000828 <_ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E>:
  828:	b430      	push	{r4, r5}
  82a:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  82e:	466d      	mov	r5, sp
  830:	e594      	b.n	35c <main+0x290>
  832:	4004      	ands	r4, r0
  834:	42ac      	cmp	r4, r5
- 836:	d308      	bcc.n	84a <_ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E+0x22>
+ 836:	d308      	bcc.n	84a <_ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E+0x22>
  838:	2448      	movs	r4, #72	; 0x48
  83a:	2504      	movs	r5, #4
  83c:	b500      	push	{lr}
@@ -791,14 +791,14 @@ Disassembly of section .text:
  87e:	9812      	ldr	r0, [sp, #72]	; 0x48
  880:	9001      	str	r0, [sp, #4]
  882:	a806      	add	r0, sp, #24
- 884:	f000 f82e 	bl	8e4 <_ZN2os4task14TaskDescriptor3new20h184f2dace3a219e6jle4v0.0E>
+ 884:	f000 f82e 	bl	8e4 <_ZN2os4task14TaskDescriptor3new20h208c0c22beceae00jle4v0.0E>
  888:	aa06      	add	r2, sp, #24
  88a:	ab02      	add	r3, sp, #8
  88c:	ca07      	ldmia	r2, {r0, r1, r2}
  88e:	e883 0007 	stmia.w	r3, {r0, r1, r2}
  892:	687a      	ldr	r2, [r7, #4]
  894:	2a03      	cmp	r2, #3
- 896:	d81f      	bhi.n	8d8 <_ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E+0xb0>
+ 896:	d81f      	bhi.n	8d8 <_ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E+0xb0>
  898:	f240 0100 	movw	r1, #0
  89c:	eb02 0042 	add.w	r0, r2, r2, lsl #1
  8a0:	ac02      	add	r4, sp, #8
@@ -826,14 +826,14 @@ Disassembly of section .text:
  8de:	f000 f8e3 	bl	aa8 <_ZN7failure17fail_bounds_check20h6672691d49ff1578FXv11v0.11.0.preE>
 	...
 
-000008e4 <_ZN2os4task14TaskDescriptor3new20h184f2dace3a219e6jle4v0.0E>:
+000008e4 <_ZN2os4task14TaskDescriptor3new20h208c0c22beceae00jle4v0.0E>:
  8e4:	b430      	push	{r4, r5}
  8e6:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  8ea:	466d      	mov	r5, sp
  8ec:	e594      	b.n	418 <task_scheduler+0x80>
  8ee:	4004      	ands	r4, r0
  8f0:	42ac      	cmp	r4, r5
- 8f2:	d308      	bcc.n	906 <_ZN2os4task14TaskDescriptor3new20h184f2dace3a219e6jle4v0.0E+0x22>
+ 8f2:	d308      	bcc.n	906 <_ZN2os4task14TaskDescriptor3new20h208c0c22beceae00jle4v0.0E+0x22>
  8f4:	2428      	movs	r4, #40	; 0x28
  8f6:	2508      	movs	r5, #8
  8f8:	b500      	push	{lr}
@@ -899,14 +899,14 @@ Disassembly of section .text:
  9ae:	f000 f87b 	bl	aa8 <_ZN7failure17fail_bounds_check20h6672691d49ff1578FXv11v0.11.0.preE>
 	...
 
-000009b4 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E>:
+000009b4 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E>:
  9b4:	b430      	push	{r4, r5}
  9b6:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  9ba:	466d      	mov	r5, sp
  9bc:	e594      	b.n	4e8 <_ZN9main_task20h6b45fb88a9396480Wba4v0.0E+0xc0>
  9be:	4004      	ands	r4, r0
  9c0:	42ac      	cmp	r4, r5
- 9c2:	d308      	bcc.n	9d6 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E+0x22>
+ 9c2:	d308      	bcc.n	9d6 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E+0x22>
  9c4:	2418      	movs	r4, #24
  9c6:	2500      	movs	r5, #0
  9c8:	b500      	push	{lr}
@@ -918,35 +918,35 @@ Disassembly of section .text:
  9d8:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
  9dc:	b082      	sub	sp, #8
  9de:	684b      	ldr	r3, [r1, #4]
- 9e0:	b18b      	cbz	r3, a06 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E+0x52>
+ 9e0:	b18b      	cbz	r3, a06 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E+0x52>
  9e2:	f8d1 c000 	ldr.w	ip, [r1]
  9e6:	2200      	movs	r2, #0
  9e8:	429a      	cmp	r2, r3
- 9ea:	d20f      	bcs.n	a0c <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E+0x58>
+ 9ea:	d20f      	bcs.n	a0c <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E+0x58>
  9ec:	f81c e002 	ldrb.w	lr, [ip, r2]
  9f0:	6804      	ldr	r4, [r0, #0]
  9f2:	6965      	ldr	r5, [r4, #20]
  9f4:	f015 0f20 	tst.w	r5, #32
- 9f8:	d0fb      	beq.n	9f2 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E+0x3e>
+ 9f8:	d0fb      	beq.n	9f2 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E+0x3e>
  9fa:	f8c4 e000 	str.w	lr, [r4]
  9fe:	3201      	adds	r2, #1
  a00:	684d      	ldr	r5, [r1, #4]
  a02:	42aa      	cmp	r2, r5
- a04:	d3f0      	bcc.n	9e8 <_ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E+0x34>
+ a04:	d3f0      	bcc.n	9e8 <_ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E+0x34>
  a06:	b002      	add	sp, #8
  a08:	e8bd 8830 	ldmia.w	sp!, {r4, r5, fp, pc}
  a0c:	4668      	mov	r0, sp
  a0e:	2129      	movs	r1, #41	; 0x29
  a10:	f000 f84a 	bl	aa8 <_ZN7failure17fail_bounds_check20h6672691d49ff1578FXv11v0.11.0.preE>
 
-00000a14 <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E>:
+00000a14 <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E>:
  a14:	b430      	push	{r4, r5}
  a16:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  a1a:	466d      	mov	r5, sp
  a1c:	e594      	b.n	548 <_ZN4task20ha1ed6692363d03a5Zaa4v0.0E+0x28>
  a1e:	4004      	ands	r4, r0
  a20:	42ac      	cmp	r4, r5
- a22:	d308      	bcc.n	a36 <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E+0x22>
+ a22:	d308      	bcc.n	a36 <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E+0x22>
  a24:	2430      	movs	r4, #48	; 0x30
  a26:	2500      	movs	r5, #0
  a28:	b500      	push	{lr}
@@ -972,17 +972,17 @@ Disassembly of section .text:
  a56:	9000      	str	r0, [sp, #0]
  a58:	4608      	mov	r0, r1
  a5a:	4629      	mov	r1, r5
- a5c:	f7ff fdf6 	bl	64c <_ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E>
+ a5c:	f7ff fdf6 	bl	64c <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E>
  a60:	f105 0020 	add.w	r0, r5, #32
  a64:	f815 1b01 	ldrb.w	r1, [r5], #1
- a68:	b139      	cbz	r1, a7a <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E+0x66>
+ a68:	b139      	cbz	r1, a7a <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E+0x66>
  a6a:	6822      	ldr	r2, [r4, #0]
  a6c:	6953      	ldr	r3, [r2, #20]
  a6e:	f013 0f20 	tst.w	r3, #32
- a72:	d0fb      	beq.n	a6c <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E+0x58>
+ a72:	d0fb      	beq.n	a6c <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E+0x58>
  a74:	6011      	str	r1, [r2, #0]
  a76:	4285      	cmp	r5, r0
- a78:	d1f4      	bne.n	a64 <_ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E+0x50>
+ a78:	d1f4      	bne.n	a64 <_ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E+0x50>
  a7a:	b008      	add	sp, #32
  a7c:	e8bd 8830 	ldmia.w	sp!, {r4, r5, fp, pc}
 
@@ -1110,26 +1110,26 @@ Disassembly of section .text:
  b88:	4770      	bx	lr
  b8a:	bf00      	nop
 
-00000b8c <str443>:
+00000b8c <str444>:
  b8c:	6b736174 	blvs	1cd9164 <_data_load+0x1cd857c>
  b90:	00000020 	andeq	r0, r0, r0, lsr #32
 
-00000b94 <str444>:
+00000b94 <str445>:
  b94:	61747320 	cmnvs	r4, r0, lsr #6
  b98:	64657472 	strbtvs	r7, [r5], #-1138	; 0x472
  b9c:	0000000a 	andeq	r0, r0, sl
 
-00000ba0 <str445>:
+00000ba0 <str446>:
  ba0:	6e6e7572 	mcrvs	5, 3, r7, cr14, cr2, {3}
  ba4:	20676e69 	rsbcs	r6, r7, r9, ror #28
  ba8:	74206e69 	strtvc	r6, [r0], #-3689	; 0xe69
  bac:	206b7361 	rsbcs	r7, fp, r1, ror #6
 
-00000bb0 <str446>:
+00000bb0 <str447>:
  bb0:	0000000a 	andeq	r0, r0, sl
 	...
 
-00000bc0 <str448>:
+00000bc0 <str449>:
  bc0:	6e6e7572 	mcrvs	5, 3, r7, cr14, cr2, {3}
  bc4:	20676e69 	rsbcs	r6, r7, r9, ror #28
  bc8:	6d206e69 	stcvs	14, cr6, [r0, #-420]!	; 0xfffffe5c

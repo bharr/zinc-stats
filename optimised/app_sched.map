@@ -19,9 +19,9 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .ARM.exidx.text._ZN4task20ha1ed6692363d03a5Zaa4v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .ARM.exidx.text._ZN3hal9cortex_m35sched13task_finished20h7a0bf291412498e0pRd4v0.0E
+ .ARM.exidx.text._ZN3hal9cortex_m35sched13task_finished20hd17a7dba9039bca8pRd4v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .ARM.exidx.text._ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E
+ .ARM.exidx.text._ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .text.rust_stack_exhausted
                 0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
@@ -31,17 +31,17 @@ Discarded input sections
                 0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .ARM.exidx.text.rust_eh_personality
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .ARM.exidx.text._ZN2os4task5setup20hc87a4a6eb794a60eXie4v0.0E
+ .ARM.exidx.text._ZN2os4task5setup20h36d2553064332c73Xie4v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .ARM.exidx.text._ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E
+ .ARM.exidx.text._ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .ARM.exidx.text._ZN2os4task14TaskDescriptor3new20h184f2dace3a219e6jle4v0.0E
+ .ARM.exidx.text._ZN2os4task14TaskDescriptor3new20h208c0c22beceae00jle4v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .ARM.exidx.text.kill_current_task
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .ARM.exidx.text._ZN7failure5fail_20h5cee15c1838990a0fWv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
@@ -245,25 +245,25 @@ Linker script and memory map
                 0x0000000000000428       0xf8 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .text._ZN4task20ha1ed6692363d03a5Zaa4v0.0E
                 0x0000000000000520      0x104 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .text._ZN3hal9cortex_m35sched13task_finished20h7a0bf291412498e0pRd4v0.0E
+ .text._ZN3hal9cortex_m35sched13task_finished20hd17a7dba9039bca8pRd4v0.0E
                 0x0000000000000624       0x28 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .text._ZN3lib7strconv4itoa20h8a40d9f53c2f96cer0d4v0.0E
+ .text._ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E
                 0x000000000000064c      0x13e /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x000000000000078a        0x2 
- .text._ZN2os4task5setup20hc87a4a6eb794a60eXie4v0.0E
+ .text._ZN2os4task5setup20h36d2553064332c73Xie4v0.0E
                 0x000000000000078c       0x9a /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x0000000000000826        0x2 
- .text._ZN2os4task11define_task20hd7787721e2fd31d00je4v0.0E
+ .text._ZN2os4task11define_task20h2ed1d947000bf4620je4v0.0E
                 0x0000000000000828       0xba /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x00000000000008e2        0x2 
- .text._ZN2os4task14TaskDescriptor3new20h184f2dace3a219e6jle4v0.0E
+ .text._ZN2os4task14TaskDescriptor3new20h208c0c22beceae00jle4v0.0E
                 0x00000000000008e4       0x8c /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .text.kill_current_task
                 0x0000000000000970       0x42 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x00000000000009b2        0x2 
- .text._ZN7drivers6chario6CharIO4puts20h14113338606340994864v0.0E
+ .text._ZN7drivers6chario6CharIO4puts20h67873845822776510734v0.0E
                 0x00000000000009b4       0x60 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
- .text._ZN7drivers6chario6CharIO4puti20h18431638228472595804v0.0E
+ .text._ZN7drivers6chario6CharIO4puti20h16304365270342136244v0.0E
                 0x0000000000000a14       0x6c /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .text._ZN7failure5fail_20h5cee15c1838990a0fWv11v0.11.0.preE
                 0x0000000000000a80       0x26 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
@@ -301,18 +301,18 @@ Linker script and memory map
                 0x0000000000000b88                __aeabi_ldiv0
                 0x0000000000000b88                __aeabi_idiv0
  *(.rodata .rodata.*)
- .rodata.str443
+ .rodata.str444
                 0x0000000000000b8c        0x5 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x0000000000000b91        0x3 
- .rodata.str444
+ .rodata.str445
                 0x0000000000000b94        0x9 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x0000000000000b9d        0x3 
- .rodata.str445
-                0x0000000000000ba0       0x10 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  .rodata.str446
+                0x0000000000000ba0       0x10 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
+ .rodata.str447
                 0x0000000000000bb0        0x1 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x0000000000000bb1        0xf 
- .rodata.str448
+ .rodata.str449
                 0x0000000000000bc0       0x15 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
  *fill*         0x0000000000000bd5        0x3 
  .rodata..Lswitch.table
@@ -321,7 +321,7 @@ Linker script and memory map
 .data           0x0000000010000000       0x34 load address 0x0000000000000be8
                 0x0000000010000000                _data = .
  *(SORT(.data*))
- .data._ZN2os4task5Tasks20hf9f3417b1bcbda78qhe4v0.0E
+ .data._ZN2os4task5Tasks20ha8d8e6fd9d8d83f0qhe4v0.0E
                 0x0000000010000000       0x34 /home/travis/build/hackndev/zinc/build/intermediate/sched/app_sched.o
                 0x0000000010000034                . = ALIGN (0x4)
                 0x0000000010000034                _edata = .
