@@ -19,7 +19,7 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/systick/app_systick.o
  .ARM.exidx.text.kill_current_task
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/systick/app_systick.o
- .ARM.exidx.text._ZN7failure17fail_bounds_check20h6672691d49ff1578FXv11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure17fail_bounds_check20hb33a0e8ae672aae6FXv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/systick/app_systick.o
  .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
  .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
@@ -217,7 +217,7 @@ Linker script and memory map
  .text.kill_current_task
                 0x00000000000002d8       0x42 /home/travis/build/hackndev/zinc/build/intermediate/systick/app_systick.o
  *fill*         0x000000000000031a        0x2 
- .text._ZN7failure17fail_bounds_check20h6672691d49ff1578FXv11v0.11.0.preE
+ .text._ZN7failure17fail_bounds_check20hb33a0e8ae672aae6FXv11v0.11.0.preE
                 0x000000000000031c       0x26 /home/travis/build/hackndev/zinc/build/intermediate/systick/app_systick.o
  *fill*         0x0000000000000342        0x2 
  .text.isr_default_fault
