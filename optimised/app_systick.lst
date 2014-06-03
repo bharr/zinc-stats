@@ -239,7 +239,7 @@ Disassembly of section .text:
  2cc:	4668      	mov	r0, sp
  2ce:	2164      	movs	r1, #100	; 0x64
  2d0:	2304      	movs	r3, #4
- 2d2:	f000 f823 	bl	31c <_ZN7failure17fail_bounds_check20hb33a0e8ae672aae6FXv11v0.11.0.preE>
+ 2d2:	f000 f823 	bl	31c <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
 	...
 
 000002d8 <kill_current_task>:
@@ -265,17 +265,17 @@ Disassembly of section .text:
  310:	4668      	mov	r0, sp
  312:	2164      	movs	r1, #100	; 0x64
  314:	2304      	movs	r3, #4
- 316:	f000 f801 	bl	31c <_ZN7failure17fail_bounds_check20hb33a0e8ae672aae6FXv11v0.11.0.preE>
+ 316:	f000 f801 	bl	31c <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
 	...
 
-0000031c <_ZN7failure17fail_bounds_check20hb33a0e8ae672aae6FXv11v0.11.0.preE>:
+0000031c <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>:
  31c:	b430      	push	{r4, r5}
  31e:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  322:	466d      	mov	r5, sp
  324:	e594      	b.n	fffffe50 <_boot_checksum+0x100025a7>
  326:	4004      	ands	r4, r0
  328:	42ac      	cmp	r4, r5
- 32a:	d308      	bcc.n	33e <_ZN7failure17fail_bounds_check20hb33a0e8ae672aae6FXv11v0.11.0.preE+0x22>
+ 32a:	d308      	bcc.n	33e <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE+0x22>
  32c:	2400      	movs	r4, #0
  32e:	2500      	movs	r5, #0
  330:	b500      	push	{lr}
