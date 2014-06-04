@@ -259,7 +259,7 @@ Disassembly of section .text:
  300:	a80c      	add	r0, sp, #48	; 0x30
  302:	a90a      	add	r1, sp, #40	; 0x28
  304:	f44f 7291 	mov.w	r2, #290	; 0x122
- 308:	f000 fbba 	bl	a80 <_ZN7failure5fail_20hbf85699558e66c84dWv11v0.11.0.preE>
+ 308:	f000 fbba 	bl	a80 <_ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE>
  30c:	4690      	mov	r8, r2
  30e:	46ce      	mov	lr, r9
  310:	4604      	mov	r4, r0
@@ -359,7 +359,7 @@ Disassembly of section .text:
  41c:	4668      	mov	r0, sp
  41e:	2164      	movs	r1, #100	; 0x64
  420:	2304      	movs	r3, #4
- 422:	f000 fb41 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 422:	f000 fb41 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
 	...
 
 00000428 <_ZN9main_task20h6b45fb88a9396480Wba4v0.0E>:
@@ -410,10 +410,10 @@ Disassembly of section .text:
  4a0:	2005      	movs	r0, #5
  4a2:	900f      	str	r0, [sp, #60]	; 0x3c
  4a4:	4640      	mov	r0, r8
- 4a6:	f000 fa85 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>
+ 4a6:	f000 fa85 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>
  4aa:	4640      	mov	r0, r8
  4ac:	4629      	mov	r1, r5
- 4ae:	f000 fab1 	bl	a14 <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E>
+ 4ae:	f000 fab1 	bl	a14 <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E>
  4b2:	f640 3094 	movw	r0, #2964	; 0xb94
  4b6:	a90c      	add	r1, sp, #48	; 0x30
  4b8:	f2c0 0000 	movt	r0, #0
@@ -421,7 +421,7 @@ Disassembly of section .text:
  4be:	2009      	movs	r0, #9
  4c0:	900d      	str	r0, [sp, #52]	; 0x34
  4c2:	4640      	mov	r0, r8
- 4c4:	f000 fa76 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>
+ 4c4:	f000 fa76 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>
  4c8:	f240 5521 	movw	r5, #1313	; 0x521
  4cc:	a808      	add	r0, sp, #32
  4ce:	2201      	movs	r2, #1
@@ -447,7 +447,7 @@ Disassembly of section .text:
  508:	4629      	mov	r1, r5
  50a:	f8cd 9008 	str.w	r9, [sp, #8]
  50e:	9403      	str	r4, [sp, #12]
- 510:	f000 fa50 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>
+ 510:	f000 fa50 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>
  514:	68b0      	ldr	r0, [r6, #8]
  516:	68b1      	ldr	r1, [r6, #8]
  518:	1a09      	subs	r1, r1, r0
@@ -510,10 +510,10 @@ Disassembly of section .text:
  5aa:	2005      	movs	r0, #5
  5ac:	9007      	str	r0, [sp, #28]
  5ae:	4628      	mov	r0, r5
- 5b0:	f000 fa00 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>
+ 5b0:	f000 fa00 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>
  5b4:	4628      	mov	r0, r5
  5b6:	4649      	mov	r1, r9
- 5b8:	f000 fa2c 	bl	a14 <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E>
+ 5b8:	f000 fa2c 	bl	a14 <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E>
  5bc:	f640 3094 	movw	r0, #2964	; 0xb94
  5c0:	a904      	add	r1, sp, #16
  5c2:	f2c0 0000 	movt	r0, #0
@@ -521,7 +521,7 @@ Disassembly of section .text:
  5c8:	2009      	movs	r0, #9
  5ca:	9005      	str	r0, [sp, #20]
  5cc:	4628      	mov	r0, r5
- 5ce:	f000 f9f1 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>
+ 5ce:	f000 f9f1 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>
  5d2:	f248 4480 	movw	r4, #33920	; 0x8480
  5d6:	f640 3ab0 	movw	sl, #2992	; 0xbb0
  5da:	f10d 0808 	add.w	r8, sp, #8
@@ -537,14 +537,14 @@ Disassembly of section .text:
  5fa:	2010      	movs	r0, #16
  5fc:	9003      	str	r0, [sp, #12]
  5fe:	4628      	mov	r0, r5
- 600:	f000 f9d8 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>
+ 600:	f000 f9d8 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>
  604:	4628      	mov	r0, r5
  606:	4649      	mov	r1, r9
- 608:	f000 fa04 	bl	a14 <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E>
+ 608:	f000 fa04 	bl	a14 <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E>
  60c:	4628      	mov	r0, r5
  60e:	4639      	mov	r1, r7
  610:	e88d 0c00 	stmia.w	sp, {sl, fp}
- 614:	f000 f9ce 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>
+ 614:	f000 f9ce 	bl	9b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>
  618:	68b0      	ldr	r0, [r6, #8]
  61a:	68b1      	ldr	r1, [r6, #8]
  61c:	1a09      	subs	r1, r1, r0
@@ -671,30 +671,30 @@ Disassembly of section .text:
  748:	211a      	movs	r1, #26
  74a:	2200      	movs	r2, #0
  74c:	2300      	movs	r3, #0
- 74e:	f000 f9ab 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 74e:	f000 f9ab 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
  752:	a816      	add	r0, sp, #88	; 0x58
  754:	2122      	movs	r1, #34	; 0x22
  756:	463a      	mov	r2, r7
  758:	2320      	movs	r3, #32
- 75a:	f000 f9a5 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 75a:	f000 f9a5 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
  75e:	a804      	add	r0, sp, #16
  760:	212c      	movs	r1, #44	; 0x2c
  762:	2320      	movs	r3, #32
- 764:	f000 f9a0 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 764:	f000 f9a0 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
  768:	a802      	add	r0, sp, #8
  76a:	212c      	movs	r1, #44	; 0x2c
  76c:	463a      	mov	r2, r7
  76e:	2310      	movs	r3, #16
- 770:	f000 f99a 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 770:	f000 f99a 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
  774:	461a      	mov	r2, r3
  776:	4668      	mov	r0, sp
  778:	212e      	movs	r1, #46	; 0x2e
  77a:	4643      	mov	r3, r8
- 77c:	f000 f994 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 77c:	f000 f994 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
  780:	a81a      	add	r0, sp, #104	; 0x68
  782:	a918      	add	r1, sp, #96	; 0x60
  784:	221f      	movs	r2, #31
- 786:	f000 f97b 	bl	a80 <_ZN7failure5fail_20hbf85699558e66c84dWv11v0.11.0.preE>
+ 786:	f000 f97b 	bl	a80 <_ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE>
 	...
 
 0000078c <_ZN2os4task5setup20h36d2553064332c73Xie4v0.0E>:
@@ -823,7 +823,7 @@ Disassembly of section .text:
  8d6:	a80adefe 	stmdage	sl, {r1, r2, r3, r4, r5, r6, r7, r9, sl, fp, ip, lr, pc}
  8da:	2176      	movs	r1, #118	; 0x76
  8dc:	2304      	movs	r3, #4
- 8de:	f000 f8e3 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 8de:	f000 f8e3 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
 	...
 
 000008e4 <_ZN2os4task14TaskDescriptor3new20h208c0c22beceae00jle4v0.0E>:
@@ -896,17 +896,17 @@ Disassembly of section .text:
  9a8:	4668      	mov	r0, sp
  9aa:	2164      	movs	r1, #100	; 0x64
  9ac:	2304      	movs	r3, #4
- 9ae:	f000 f87b 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ 9ae:	f000 f87b 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
 	...
 
-000009b4 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E>:
+000009b4 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E>:
  9b4:	b430      	push	{r4, r5}
  9b6:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  9ba:	466d      	mov	r5, sp
  9bc:	e594      	b.n	4e8 <_ZN9main_task20h6b45fb88a9396480Wba4v0.0E+0xc0>
  9be:	4004      	ands	r4, r0
  9c0:	42ac      	cmp	r4, r5
- 9c2:	d308      	bcc.n	9d6 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E+0x22>
+ 9c2:	d308      	bcc.n	9d6 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E+0x22>
  9c4:	2418      	movs	r4, #24
  9c6:	2500      	movs	r5, #0
  9c8:	b500      	push	{lr}
@@ -918,35 +918,35 @@ Disassembly of section .text:
  9d8:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
  9dc:	b082      	sub	sp, #8
  9de:	684b      	ldr	r3, [r1, #4]
- 9e0:	b18b      	cbz	r3, a06 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E+0x52>
+ 9e0:	b18b      	cbz	r3, a06 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E+0x52>
  9e2:	f8d1 c000 	ldr.w	ip, [r1]
  9e6:	2200      	movs	r2, #0
  9e8:	429a      	cmp	r2, r3
- 9ea:	d20f      	bcs.n	a0c <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E+0x58>
+ 9ea:	d20f      	bcs.n	a0c <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E+0x58>
  9ec:	f81c e002 	ldrb.w	lr, [ip, r2]
  9f0:	6804      	ldr	r4, [r0, #0]
  9f2:	6965      	ldr	r5, [r4, #20]
  9f4:	f015 0f20 	tst.w	r5, #32
- 9f8:	d0fb      	beq.n	9f2 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E+0x3e>
+ 9f8:	d0fb      	beq.n	9f2 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E+0x3e>
  9fa:	f8c4 e000 	str.w	lr, [r4]
  9fe:	3201      	adds	r2, #1
  a00:	684d      	ldr	r5, [r1, #4]
  a02:	42aa      	cmp	r2, r5
- a04:	d3f0      	bcc.n	9e8 <_ZN7drivers6chario6CharIO4puts21h124952890779682360394v0.0E+0x34>
+ a04:	d3f0      	bcc.n	9e8 <_ZN7drivers6chario6CharIO4puts21h129168001624480214714v0.0E+0x34>
  a06:	b002      	add	sp, #8
  a08:	e8bd 8830 	ldmia.w	sp!, {r4, r5, fp, pc}
  a0c:	4668      	mov	r0, sp
  a0e:	2129      	movs	r1, #41	; 0x29
- a10:	f000 f84a 	bl	aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>
+ a10:	f000 f84a 	bl	aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>
 
-00000a14 <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E>:
+00000a14 <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E>:
  a14:	b430      	push	{r4, r5}
  a16:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  a1a:	466d      	mov	r5, sp
  a1c:	e594      	b.n	548 <_ZN4task20ha1ed6692363d03a5Zaa4v0.0E+0x28>
  a1e:	4004      	ands	r4, r0
  a20:	42ac      	cmp	r4, r5
- a22:	d308      	bcc.n	a36 <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E+0x22>
+ a22:	d308      	bcc.n	a36 <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E+0x22>
  a24:	2430      	movs	r4, #48	; 0x30
  a26:	2500      	movs	r5, #0
  a28:	b500      	push	{lr}
@@ -975,25 +975,25 @@ Disassembly of section .text:
  a5c:	f7ff fdf6 	bl	64c <_ZN3lib7strconv4itoa20h9658725764923f0br0d4v0.0E>
  a60:	f105 0020 	add.w	r0, r5, #32
  a64:	f815 1b01 	ldrb.w	r1, [r5], #1
- a68:	b139      	cbz	r1, a7a <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E+0x66>
+ a68:	b139      	cbz	r1, a7a <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E+0x66>
  a6a:	6822      	ldr	r2, [r4, #0]
  a6c:	6953      	ldr	r3, [r2, #20]
  a6e:	f013 0f20 	tst.w	r3, #32
- a72:	d0fb      	beq.n	a6c <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E+0x58>
+ a72:	d0fb      	beq.n	a6c <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E+0x58>
  a74:	6011      	str	r1, [r2, #0]
  a76:	4285      	cmp	r5, r0
- a78:	d1f4      	bne.n	a64 <_ZN7drivers6chario6CharIO4puti21h109260148305002287244v0.0E+0x50>
+ a78:	d1f4      	bne.n	a64 <_ZN7drivers6chario6CharIO4puti21h175697728892081582104v0.0E+0x50>
  a7a:	b008      	add	sp, #32
  a7c:	e8bd 8830 	ldmia.w	sp!, {r4, r5, fp, pc}
 
-00000a80 <_ZN7failure5fail_20hbf85699558e66c84dWv11v0.11.0.preE>:
+00000a80 <_ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE>:
  a80:	b430      	push	{r4, r5}
  a82:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  a86:	466d      	mov	r5, sp
  a88:	e594      	b.n	5b4 <_ZN4task20ha1ed6692363d03a5Zaa4v0.0E+0x94>
  a8a:	4004      	ands	r4, r0
  a8c:	42ac      	cmp	r4, r5
- a8e:	d308      	bcc.n	aa2 <_ZN7failure5fail_20hbf85699558e66c84dWv11v0.11.0.preE+0x22>
+ a8e:	d308      	bcc.n	aa2 <_ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE+0x22>
  a90:	2400      	movs	r4, #0
  a92:	2500      	movs	r5, #0
  a94:	b500      	push	{lr}
@@ -1005,14 +1005,14 @@ Disassembly of section .text:
  aa4:	bf00      	nop
 	...
 
-00000aa8 <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE>:
+00000aa8 <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE>:
  aa8:	b430      	push	{r4, r5}
  aaa:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  aae:	466d      	mov	r5, sp
  ab0:	e594      	b.n	5dc <_ZN4task20ha1ed6692363d03a5Zaa4v0.0E+0xbc>
  ab2:	4004      	ands	r4, r0
  ab4:	42ac      	cmp	r4, r5
- ab6:	d308      	bcc.n	aca <_ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE+0x22>
+ ab6:	d308      	bcc.n	aca <_ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE+0x22>
  ab8:	2400      	movs	r4, #0
  aba:	2500      	movs	r5, #0
  abc:	b500      	push	{lr}

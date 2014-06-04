@@ -20,9 +20,9 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  .ARM.exidx.text.kill_current_task
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .ARM.exidx.text._ZN7failure5fail_20hbf85699558e66c84dWv11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .ARM.exidx.text._ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  .rodata.str700
                 0x0000000000000000        0xd /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
@@ -227,10 +227,10 @@ Linker script and memory map
  .text.kill_current_task
                 0x000000000000079c       0x42 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  *fill*         0x00000000000007de        0x2 
- .text._ZN7failure5fail_20hbf85699558e66c84dWv11v0.11.0.preE
+ .text._ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE
                 0x00000000000007e0       0x26 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  *fill*         0x0000000000000806        0x2 
- .text._ZN7failure17fail_bounds_check20hc174c056496b8954DXv11v0.11.0.preE
+ .text._ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE
                 0x0000000000000808       0x26 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  *fill*         0x000000000000082e        0x2 
  .text.isr_default_fault
