@@ -33,13 +33,13 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .ARM.exidx.text.kill_current_task
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puts20h71060355098029897034v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puts21h110638148200935921644v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puti21h126350947422210523474v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puti21h129621002065333530724v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure5fail_20h750881ada19526aewWv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure17fail_bounds_check20h7d7daf80077cb3b9WXv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
  .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
@@ -248,14 +248,14 @@ Linker script and memory map
  .text.kill_current_task
                 0x00000000000007f0       0x42 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000832        0x2 
- .text._ZN7drivers6chario6CharIO4puts20h71060355098029897034v0.0E
+ .text._ZN7drivers6chario6CharIO4puts21h110638148200935921644v0.0E
                 0x0000000000000834       0x60 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .text._ZN7drivers6chario6CharIO4puti21h126350947422210523474v0.0E
+ .text._ZN7drivers6chario6CharIO4puti21h129621002065333530724v0.0E
                 0x0000000000000894       0x6c /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .text._ZN7failure5fail_20h84f44c3f033dad21dWv11v0.11.0.preE
+ .text._ZN7failure5fail_20h750881ada19526aewWv11v0.11.0.preE
                 0x0000000000000900       0x26 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000926        0x2 
- .text._ZN7failure17fail_bounds_check20hcd31fe55392df098DXv11v0.11.0.preE
+ .text._ZN7failure17fail_bounds_check20h7d7daf80077cb3b9WXv11v0.11.0.preE
                 0x0000000000000928       0x26 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x000000000000094e        0x2 
  .text.isr_default_fault
