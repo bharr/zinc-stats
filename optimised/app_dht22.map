@@ -37,9 +37,9 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .ARM.exidx.text.kill_current_task
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .ARM.exidx.text._ZN7failure5fail_20h5a583150d92e56f5CWv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
@@ -252,9 +252,9 @@ Linker script and memory map
  .text.kill_current_task
                 0x00000000000007f0       0x42 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000832        0x2 
- .text._ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E
+ .text._ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E
                 0x0000000000000834       0x60 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .text._ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E
+ .text._ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E
                 0x0000000000000894       0x6c /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .text._ZN7failure5fail_20h5a583150d92e56f5CWv11v0.11.0.preE
                 0x0000000000000900       0x26 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o

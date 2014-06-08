@@ -303,7 +303,7 @@ Disassembly of section .text:
  376:	200b      	movs	r0, #11
  378:	9013      	str	r0, [sp, #76]	; 0x4c
  37a:	4628      	mov	r0, r5
- 37c:	f000 fa5a 	bl	834 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E>
+ 37c:	f000 fa5a 	bl	834 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E>
  380:	f24c 00c4 	movw	r0, #49348	; 0xc0c4
  384:	f248 0600 	movw	r6, #32768	; 0x8000
  388:	f24c 0a00 	movw	sl, #49152	; 0xc000
@@ -337,7 +337,7 @@ Disassembly of section .text:
  3dc:	f040 0010 	orr.w	r0, r0, #16
  3e0:	f8ca 0000 	str.w	r0, [sl]
  3e4:	e002      	b.n	3ec <main+0x320>
- 3e6:	f000 fa25 	bl	834 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E>
+ 3e6:	f000 fa25 	bl	834 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E>
  3ea:	2210      	movs	r2, #16
  3ec:	68b0      	ldr	r0, [r6, #8]
  3ee:	68b1      	ldr	r1, [r6, #8]
@@ -489,12 +489,12 @@ Disassembly of section .text:
  570:	200a      	movs	r0, #10
  572:	9011      	str	r0, [sp, #68]	; 0x44
  574:	4638      	mov	r0, r7
- 576:	f000 f95d 	bl	834 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E>
+ 576:	f000 f95d 	bl	834 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E>
  57a:	9803      	ldr	r0, [sp, #12]
  57c:	f000 fca4 	bl	ec8 <__aeabi_f2uiz>
  580:	4601      	mov	r1, r0
  582:	4638      	mov	r0, r7
- 584:	f000 f986 	bl	894 <_ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E>
+ 584:	f000 f986 	bl	894 <_ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E>
  588:	f640 7020 	movw	r0, #3872	; 0xf20
  58c:	f04f 0b01 	mov.w	fp, #1
  590:	a90e      	add	r1, sp, #56	; 0x38
@@ -503,7 +503,7 @@ Disassembly of section .text:
  598:	4638      	mov	r0, r7
  59a:	940e      	str	r4, [sp, #56]	; 0x38
  59c:	f8cd b03c 	str.w	fp, [sp, #60]	; 0x3c
- 5a0:	f000 f948 	bl	834 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E>
+ 5a0:	f000 f948 	bl	834 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E>
  5a4:	f640 7024 	movw	r0, #3876	; 0xf24
  5a8:	a90c      	add	r1, sp, #48	; 0x30
  5aa:	f2c0 0000 	movt	r0, #0
@@ -511,12 +511,12 @@ Disassembly of section .text:
  5b0:	200a      	movs	r0, #10
  5b2:	900d      	str	r0, [sp, #52]	; 0x34
  5b4:	4638      	mov	r0, r7
- 5b6:	f000 f93d 	bl	834 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E>
+ 5b6:	f000 f93d 	bl	834 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E>
  5ba:	9804      	ldr	r0, [sp, #16]
  5bc:	f000 fc84 	bl	ec8 <__aeabi_f2uiz>
  5c0:	4601      	mov	r1, r0
  5c2:	4638      	mov	r0, r7
- 5c4:	f000 f966 	bl	894 <_ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E>
+ 5c4:	f000 f966 	bl	894 <_ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E>
  5c8:	940a      	str	r4, [sp, #40]	; 0x28
  5ca:	f8cd b02c 	str.w	fp, [sp, #44]	; 0x2c
  5ce:	4638      	mov	r0, r7
@@ -752,14 +752,14 @@ Disassembly of section .text:
  82e:	f000 f87b 	bl	928 <_ZN7failure17fail_bounds_check20h15b60dbe339b6e592Xv11v0.11.0.preE>
 	...
 
-00000834 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E>:
+00000834 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E>:
  834:	b430      	push	{r4, r5}
  836:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  83a:	466d      	mov	r5, sp
  83c:	e594      	b.n	368 <main+0x29c>
  83e:	4004      	ands	r4, r0
  840:	42ac      	cmp	r4, r5
- 842:	d308      	bcc.n	856 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E+0x22>
+ 842:	d308      	bcc.n	856 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E+0x22>
  844:	2418      	movs	r4, #24
  846:	2500      	movs	r5, #0
  848:	b500      	push	{lr}
@@ -771,35 +771,35 @@ Disassembly of section .text:
  858:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
  85c:	b082      	sub	sp, #8
  85e:	684b      	ldr	r3, [r1, #4]
- 860:	b18b      	cbz	r3, 886 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E+0x52>
+ 860:	b18b      	cbz	r3, 886 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E+0x52>
  862:	f8d1 c000 	ldr.w	ip, [r1]
  866:	2200      	movs	r2, #0
  868:	429a      	cmp	r2, r3
- 86a:	d20f      	bcs.n	88c <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E+0x58>
+ 86a:	d20f      	bcs.n	88c <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E+0x58>
  86c:	f81c e002 	ldrb.w	lr, [ip, r2]
  870:	6804      	ldr	r4, [r0, #0]
  872:	6965      	ldr	r5, [r4, #20]
  874:	f015 0f20 	tst.w	r5, #32
- 878:	d0fb      	beq.n	872 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E+0x3e>
+ 878:	d0fb      	beq.n	872 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E+0x3e>
  87a:	f8c4 e000 	str.w	lr, [r4]
  87e:	3201      	adds	r2, #1
  880:	684d      	ldr	r5, [r1, #4]
  882:	42aa      	cmp	r2, r5
- 884:	d3f0      	bcc.n	868 <_ZN7drivers6chario6CharIO4puts20h76867021997101083334v0.0E+0x34>
+ 884:	d3f0      	bcc.n	868 <_ZN7drivers6chario6CharIO4puts21h183731476321775985184v0.0E+0x34>
  886:	b002      	add	sp, #8
  888:	e8bd 8830 	ldmia.w	sp!, {r4, r5, fp, pc}
  88c:	4668      	mov	r0, sp
  88e:	2129      	movs	r1, #41	; 0x29
  890:	f000 f84a 	bl	928 <_ZN7failure17fail_bounds_check20h15b60dbe339b6e592Xv11v0.11.0.preE>
 
-00000894 <_ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E>:
+00000894 <_ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E>:
  894:	b430      	push	{r4, r5}
  896:	ee1d 4f70 	mrc	15, 0, r4, cr13, cr0, {3}
  89a:	466d      	mov	r5, sp
  89c:	e594      	b.n	3c8 <main+0x2fc>
  89e:	4004      	ands	r4, r0
  8a0:	42ac      	cmp	r4, r5
- 8a2:	d308      	bcc.n	8b6 <_ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E+0x22>
+ 8a2:	d308      	bcc.n	8b6 <_ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E+0x22>
  8a4:	2430      	movs	r4, #48	; 0x30
  8a6:	2500      	movs	r5, #0
  8a8:	b500      	push	{lr}
@@ -828,14 +828,14 @@ Disassembly of section .text:
  8dc:	f7ff fee8 	bl	6b0 <_ZN3lib7strconv4itoa20h59715c747595f002r0d4v0.0E>
  8e0:	f105 0020 	add.w	r0, r5, #32
  8e4:	f815 1b01 	ldrb.w	r1, [r5], #1
- 8e8:	b139      	cbz	r1, 8fa <_ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E+0x66>
+ 8e8:	b139      	cbz	r1, 8fa <_ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E+0x66>
  8ea:	6822      	ldr	r2, [r4, #0]
  8ec:	6953      	ldr	r3, [r2, #20]
  8ee:	f013 0f20 	tst.w	r3, #32
- 8f2:	d0fb      	beq.n	8ec <_ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E+0x58>
+ 8f2:	d0fb      	beq.n	8ec <_ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E+0x58>
  8f4:	6011      	str	r1, [r2, #0]
  8f6:	4285      	cmp	r5, r0
- 8f8:	d1f4      	bne.n	8e4 <_ZN7drivers6chario6CharIO4puti21h113366000910426455294v0.0E+0x50>
+ 8f8:	d1f4      	bne.n	8e4 <_ZN7drivers6chario6CharIO4puti21h135539308399639909544v0.0E+0x50>
  8fa:	b008      	add	sp, #32
  8fc:	e8bd 8830 	ldmia.w	sp!, {r4, r5, fp, pc}
 
