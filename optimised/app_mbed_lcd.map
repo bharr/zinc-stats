@@ -18,9 +18,9 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
  .ARM.exidx.text.task_scheduler
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
- .ARM.exidx.text._ZN7drivers3lcd6c1233239C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.LCD5flush20h57693871698285066064v0.0E
+ .ARM.exidx.text._ZN7drivers3lcd6c1233239C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.LCD5flush20h42296991276488700224v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
- .ARM.exidx.text._ZN7drivers3lcd6c1233242C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.CharIO4putc21h183169694786479679024v0.0E
+ .ARM.exidx.text._ZN7drivers3lcd6c1233242C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.CharIO4putc20h78633193350572640024v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
  .text.rust_stack_exhausted
                 0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
@@ -236,10 +236,10 @@ Linker script and memory map
                 0x0000000000000ff8       0x8e /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
                 0x0000000000000ff8                task_scheduler
  *fill*         0x0000000000001086        0x2 
- .text._ZN7drivers3lcd6c1233239C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.LCD5flush20h57693871698285066064v0.0E
+ .text._ZN7drivers3lcd6c1233239C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.LCD5flush20h42296991276488700224v0.0E
                 0x0000000000001088      0x7e6 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
  *fill*         0x000000000000186e        0x2 
- .text._ZN7drivers3lcd6c1233242C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.CharIO4putc21h183169694786479679024v0.0E
+ .text._ZN7drivers3lcd6c1233242C12332$LT$$x27a$C$$x20S$C$$x20T$GT$.CharIO4putc20h78633193350572640024v0.0E
                 0x0000000000001870      0x298 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
  .text.kill_current_task
                 0x0000000000001b08       0x42 /home/travis/build/hackndev/zinc/build/intermediate/mbed_lcd/app_mbed_lcd.o
