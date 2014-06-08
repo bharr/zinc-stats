@@ -28,7 +28,7 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  .ARM.exidx.text._ZN7failure17fail_bounds_check20h15b60dbe339b6e592Xv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .rodata.str700
+ .rodata.str699
                 0x0000000000000000        0xd /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  .rodata.str701
                 0x0000000000000000        0xc /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
@@ -258,13 +258,13 @@ Linker script and memory map
                 0x00000000000008ac        0x4 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
                 0x00000000000008ac                syscall
  *(.rodata .rodata.*)
- .rodata..Lswitch.table
+ .rodata..Lswitch.table45
                 0x00000000000008b0       0x10 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
 
 .data           0x0000000010000000       0x34 load address 0x00000000000008c0
                 0x0000000010000000                _data = .
  *(SORT(.data*))
- .data._ZN2os4task5Tasks20he67e7662723f38d8qhe4v0.0E
+ .data._ZN2os4task5Tasks20h61e3bed41a6e204aUhe4v0.0E
                 0x0000000010000000       0x34 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
                 0x0000000010000034                . = ALIGN (0x4)
                 0x0000000010000034                _edata = .
