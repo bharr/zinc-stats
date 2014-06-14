@@ -1,14 +1,14 @@
 Archive member included because of file (symbol)
 
-/usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_udivsi3.o)
+/usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivsi3.o)
                               /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o (__aeabi_uidivmod)
-/usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_dvmd_tls.o)
-                              /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
-/usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
+/usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
                               /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o (__aeabi_ui2f)
-/usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
+/usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
                               /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o (__aeabi_fmul)
-/usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+/usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
                               /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o (__aeabi_f2uiz)
 
 Discarded input sections
@@ -37,13 +37,13 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .ARM.exidx.text.kill_current_task
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puts20h78707051107713336904v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puts21h167064440174393827454v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7drivers6chario6CharIO4puti20h37863590124189422164v0.0E
+ .ARM.exidx.text._ZN7drivers6chario6CharIO4puti21h178080136099378655904v0.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7failure5fail_20h0a3ba6f2170d8e5e4Sv11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure5fail_20h4cf3ef7302cda811DPv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .ARM.exidx.text._ZN7failure17fail_bounds_check20hd02eb70fa0b2c11cuUv11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure17fail_bounds_check20h44a45210bce870303Qv11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
  .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
@@ -113,16 +113,16 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
  .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
  .bss           0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
- .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_udivsi3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_udivsi3.o)
- .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_dvmd_tls.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_dvmd_tls.o)
- .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
- .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
- .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_fixunssfsi.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
 
 Memory Configuration
 
@@ -252,14 +252,14 @@ Linker script and memory map
  .text.kill_current_task
                 0x00000000000007f0       0x42 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000832        0x2 
- .text._ZN7drivers6chario6CharIO4puts20h78707051107713336904v0.0E
+ .text._ZN7drivers6chario6CharIO4puts21h167064440174393827454v0.0E
                 0x0000000000000834       0x60 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .text._ZN7drivers6chario6CharIO4puti20h37863590124189422164v0.0E
+ .text._ZN7drivers6chario6CharIO4puti21h178080136099378655904v0.0E
                 0x0000000000000894       0x6c /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
- .text._ZN7failure5fail_20h0a3ba6f2170d8e5e4Sv11v0.11.0.preE
+ .text._ZN7failure5fail_20h4cf3ef7302cda811DPv11v0.11.0.preE
                 0x0000000000000900       0x26 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000926        0x2 
- .text._ZN7failure17fail_bounds_check20hd02eb70fa0b2c11cuUv11v0.11.0.preE
+ .text._ZN7failure17fail_bounds_check20h44a45210bce870303Qv11v0.11.0.preE
                 0x0000000000000928       0x26 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x000000000000094e        0x2 
  .text.isr_default_fault
@@ -284,14 +284,14 @@ Linker script and memory map
  .text.sched.syscall
                 0x00000000000009e0        0x4 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
                 0x00000000000009e0                syscall
- .text          0x00000000000009e4       0x24 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_udivsi3.o)
+ .text          0x00000000000009e4       0x24 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivsi3.o)
                 0x00000000000009e4                __udivsi3
                 0x00000000000009e4                __aeabi_uidiv
                 0x00000000000009f8                __aeabi_uidivmod
- .text          0x0000000000000a08        0x4 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000a08        0x4 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
                 0x0000000000000a08                __aeabi_ldiv0
                 0x0000000000000a08                __aeabi_idiv0
- .text          0x0000000000000a0c      0x21c /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .text          0x0000000000000a0c      0x21c /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
                 0x0000000000000a0c                __aeabi_frsub
                 0x0000000000000a14                __subsf3
                 0x0000000000000a14                __aeabi_fsub
@@ -305,28 +305,28 @@ Linker script and memory map
                 0x0000000000000b9c                __aeabi_ul2f
                 0x0000000000000bac                __floatdisf
                 0x0000000000000bac                __aeabi_l2f
- .text          0x0000000000000c28      0x2a0 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .text          0x0000000000000c28      0x2a0 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
                 0x0000000000000c28                __mulsf3
                 0x0000000000000c28                __aeabi_fmul
                 0x0000000000000d90                __divsf3
                 0x0000000000000d90                __aeabi_fdiv
- .text          0x0000000000000ec8       0x40 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .text          0x0000000000000ec8       0x40 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
                 0x0000000000000ec8                __aeabi_f2uiz
                 0x0000000000000ec8                __fixunssfsi
  *(.rodata .rodata.*)
- .rodata.str449
+ .rodata.str451
                 0x0000000000000f08        0xb /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f13        0x1 
- .rodata.str583
+ .rodata.str585
                 0x0000000000000f14        0xa /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f1e        0x2 
- .rodata.str584
+ .rodata.str586
                 0x0000000000000f20        0x1 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f21        0x3 
- .rodata.str585
+ .rodata.str587
                 0x0000000000000f24        0xa /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f2e        0x2 
- .rodata.str586
+ .rodata.str588
                 0x0000000000000f30        0x5 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
  *fill*         0x0000000000000f35        0x3 
  .rodata..Lswitch.table48
@@ -365,7 +365,7 @@ LOAD /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/isr.o
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/support.o
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
-LOAD /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a
 OUTPUT(/home/travis/build/hackndev/zinc/build/app_dht22.elf elf32-littlearm)
 
 .ARM.attributes
@@ -379,15 +379,15 @@ OUTPUT(/home/travis/build/hackndev/zinc/build/app_dht22.elf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000087       0x1b /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
  .ARM.attributes
-                0x00000000000000a2       0x1d /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_udivsi3.o)
+                0x00000000000000a2       0x1d /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x00000000000000bf       0x1d /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                0x00000000000000bf       0x1d /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000000000000dc       0x1d /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                0x00000000000000dc       0x1d /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00000000000000f9       0x1d /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
+                0x00000000000000f9       0x1d /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x0000000000000116       0x1d /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000000000116       0x1d /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
 
 .debug_frame    0x0000000000000000       0x20
- .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivsi3.o)
