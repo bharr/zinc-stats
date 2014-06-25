@@ -7,10 +7,8 @@ Discarded input sections
  .ARM.exidx.text.main
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
  .text.__morestack
-                0x0000000000000000       0x1a /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
+                0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
  .ARM.exidx.text.__morestack
-                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
- .ARM.exidx.text.task_scheduler
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
  .text.rust_stack_exhausted
                 0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
@@ -23,12 +21,6 @@ Discarded input sections
  .text.rust_begin_unwind
                 0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
  .ARM.exidx.text.rust_begin_unwind
-                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
- .text.kill_current_task
-                0x0000000000000000       0x42 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
- .ARM.exidx.text.kill_current_task
-                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
- .ARM.exidx.text._ZN7failure17fail_bounds_check20h94ca315b69c0def5w0v11v0.11.0.preE
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
  .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
  .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
@@ -98,11 +90,6 @@ Discarded input sections
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
  .ARM.exidx.text.rust_begin_unwind
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
- .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
- .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
- .bss           0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
- .text.sched.syscall
-                0x0000000000000000        0x4 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
 
 Memory Configuration
 
@@ -114,16 +101,16 @@ ram              0x0000000010000000 0x0000000000002000 awl
 Linker script and memory map
 
                 0x0000000010002000                __STACK_BASE = 0x10002000
-                0xffffffffefffda91                _boot_checksum = (0x0 - ((((((__STACK_BASE + main) + 0x1) + isr_nmi) + 0x1) + isr_hardfault) + 0x1))
-                0x00000000000002cc                _data_load = LOADADDR (.data)
-                0x0000000000000250                PROVIDE (isr_nmi, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_hardfault, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_mmfault, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_busfault, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_usagefault, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_svcall, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_pendsv, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_systick, isr_default_fault)
+                0xffffffffefffdbb1                _boot_checksum = (0x0 - ((((((__STACK_BASE + main) + 0x1) + isr_nmi) + 0x1) + isr_hardfault) + 0x1))
+                0x00000000000001dc                _data_load = LOADADDR (.data)
+                0x00000000000001c0                PROVIDE (isr_nmi, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_hardfault, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_mmfault, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_busfault, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_usagefault, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_svcall, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_pendsv, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_systick, isr_default_fault)
                 0x00000000e000e010                armmem_SYSTICK = 0xe000e010
                 0x00000000e000e100                armmem_NVIC_ISER = 0xe000e100
                 0x00000000e000e180                armmem_NVIC_ICER = 0xe000e180
@@ -135,41 +122,41 @@ Linker script and memory map
                 0x00000000e000e008                armmem_SCB_ACTLR = 0xe000e008
                 0x00000000e000ed00                armmem_SCB = 0xe000ed00
                 0x00000000e000ed90                armmem_MPU = 0xe000ed90
-                0x0000000000000250                PROVIDE (isr_wdt, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_timer_0, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_timer_1, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_timer_2, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_timer_3, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_uart_0, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_uart_1, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_uart_2, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_uart_3, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_pwm_1, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_i2c_0, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_i2c_1, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_i2c_2, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_spi, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_ssp_0, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_ssp_1, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_pll_0, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_rtc, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_eint_0, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_eint_1, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_eint_2, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_eint_3, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_adc, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_bod, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_usb, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_can, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_dma, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_i2s, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_enet, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_rit, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_mcpwm, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_qei, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_pll_1, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_usb_activity, isr_default_fault)
-                0x0000000000000250                PROVIDE (isr_can_activity, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_wdt, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_timer_0, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_timer_1, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_timer_2, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_timer_3, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_uart_0, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_uart_1, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_uart_2, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_uart_3, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_pwm_1, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_i2c_0, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_i2c_1, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_i2c_2, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_spi, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_ssp_0, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_ssp_1, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_pll_0, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_rtc, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_eint_0, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_eint_1, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_eint_2, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_eint_3, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_adc, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_bod, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_usb, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_can, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_dma, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_i2s, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_enet, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_rit, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_mcpwm, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_qei, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_pll_1, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_usb_activity, isr_default_fault)
+                0x00000000000001c0                PROVIDE (isr_can_activity, isr_default_fault)
                 0x000000002009c000                iomem_GPIO0 = 0x2009c000
                 0x000000002009c020                iomem_GPIO1 = 0x2009c020
                 0x000000002009c040                iomem_GPIO2 = 0x2009c040
@@ -204,7 +191,7 @@ Linker script and memory map
                 0x00000000400fc1ac                iomem_PCLKSEL1 = 0x400fc1ac
                 0x00000000400fc1a0                iomem_SCS = 0x400fc1a0
 
-.text           0x0000000000000000      0x2cc
+.text           0x0000000000000000      0x1dc
  FILL mask 0xff
  *(.isr_vector)
  .isr_vector    0x0000000000000000       0x40 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
@@ -217,51 +204,34 @@ Linker script and memory map
  *(.text*)
  .text.main     0x00000000000000cc       0xf4 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
                 0x00000000000000cc                main
- .text.task_scheduler
-                0x00000000000001c0       0x8e /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
-                0x00000000000001c0                task_scheduler
- *fill*         0x000000000000024e        0x2 
- .text._ZN7failure17fail_bounds_check20h94ca315b69c0def5w0v11v0.11.0.preE
-                0x0000000000000250        0x0 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
  .text.isr_default_fault
-                0x0000000000000250       0x10 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
-                0x0000000000000250                isr_default_fault
- .text.abort    0x0000000000000260        0x4 /home/travis/build/hackndev/zinc/build/intermediate/support.o
-                0x0000000000000260                abort
+                0x00000000000001c0       0x10 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+                0x00000000000001c0                isr_default_fault
+ .text.abort    0x00000000000001d0        0x4 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+                0x00000000000001d0                abort
  .text.__aeabi_unwind_cpp_pr0
-                0x0000000000000264        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
-                0x0000000000000264                __aeabi_unwind_cpp_pr0
- .text.sched.isr_systick
-                0x000000000000026c       0x28 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
-                0x000000000000026c                isr_systick
- .text.sched.isr_pendsv
-                0x0000000000000294       0x28 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
-                0x0000000000000294                isr_pendsv
- .text.sched.isr_svcall
-                0x00000000000002bc       0x10 /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
-                0x00000000000002bc                isr_svcall
+                0x00000000000001d4        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+                0x00000000000001d4                __aeabi_unwind_cpp_pr0
  *(.rodata .rodata.*)
 
-.data           0x0000000010000000       0x34 load address 0x00000000000002cc
+.data           0x0000000010000000        0x0 load address 0x00000000000001dc
                 0x0000000010000000                _data = .
  *(SORT(.data*))
- .data._ZN2os4task5Tasks20hcc7263b5d98906231he4v0.0E
-                0x0000000010000000       0x34 /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
-                0x0000000010000034                . = ALIGN (0x4)
-                0x0000000010000034                _edata = .
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _edata = .
 
-.bss            0x0000000010000034        0x8 load address 0x0000000000000300
-                0x0000000010000034                _bss = .
+.bss            0x0000000010000000        0x8 load address 0x00000000000001dc
+                0x0000000010000000                _bss = .
  *(.bss*)
  *(COMMON)
-                0x0000000010000034                . = ALIGN (0x4)
-                0x0000000010000034                _ebss = .
-                0x0000000010000038                . = (. + 0x4)
- *fill*         0x0000000010000034        0x4 
-                0x0000000010000038                __STACK_LIMIT = .
-                0x000000001000003c                . = (. + 0x4)
- *fill*         0x0000000010000038        0x4 
-                0x000000001000003c                _eglobals = .
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _ebss = .
+                0x0000000010000004                . = (. + 0x4)
+ *fill*         0x0000000010000000        0x4 
+                0x0000000010000004                __STACK_LIMIT = .
+                0x0000000010000008                . = (. + 0x4)
+ *fill*         0x0000000010000004        0x4 
+                0x0000000010000008                _eglobals = .
 
 /DISCARD/
  *(.glue_7*)
@@ -273,15 +243,12 @@ Linker script and memory map
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/isr.o
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/support.o
-LOAD /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
 LOAD /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a
 OUTPUT(/home/travis/build/hackndev/zinc/build/app_empty.elf elf32-littlearm)
 
 .ARM.attributes
-                0x0000000000000000       0x2b
+                0x0000000000000000       0x2d
  .ARM.attributes
                 0x0000000000000000       0x2f /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
  .ARM.attributes
                 0x000000000000002f       0x2f /home/travis/build/hackndev/zinc/build/intermediate/isr.o
- .ARM.attributes
-                0x000000000000005e       0x1b /home/travis/build/hackndev/zinc/build/intermediate/isr_sched.o
