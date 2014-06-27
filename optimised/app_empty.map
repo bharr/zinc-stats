@@ -243,7 +243,7 @@ Linker script and memory map
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/empty/app_empty.o
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/isr.o
 LOAD /home/travis/build/hackndev/zinc/build/intermediate/support.o
-LOAD /usr/lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a
 OUTPUT(/home/travis/build/hackndev/zinc/build/app_empty.elf elf32-littlearm)
 
 .ARM.attributes

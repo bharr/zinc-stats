@@ -23,4 +23,5 @@
 {"version_rust":"rustc 0.11.0-pre-nightly (05ca9f7 2014-06-24 22:06:48 +0000)", "version_zinc":"2abb31445a19abbbebed99901b1d700b573d746a", "version_date":"Wed Jun 25 19:29:54 UTC 2014", "blink":"872-52-8", "empty":"716-52-8", "version_platform":"lpc17xx"},
 {"version_rust":"rustc 0.11.0-pre-nightly (05ca9f7 2014-06-24 22:06:48 +0000)", "version_zinc":"ef78c9746c079870a1b4b951638a329c5385a114", "version_date":"Wed Jun 25 20:28:45 UTC 2014", "blink":"632-0-8", "empty":"476-0-8", "version_platform":"lpc17xx"},
 {"version_rust":"rustc 0.11.0-pre-nightly (9f8149e185fe55751b8d8675021d2066249abe54 2014-06-25 18:51:21 +0000)", "version_zinc":"6a631098ce305e5fbdbd27a58b2b1e1430a4a18a", "version_date":"Fri Jun 27 12:48:52 UTC 2014", "blink":"632-0-8", "empty":"476-0-8", "version_platform":"lpc17xx"},
+{"version_rust":"rustc 0.11.0-pre-nightly (9f8149e185fe55751b8d8675021d2066249abe54 2014-06-25 18:51:21 +0000)", "version_zinc":"c5c3cd017063489dbe4fe15dcb6003e83616cbaa", "version_date":"Fri Jun 27 13:42:51 UTC 2014", "blink":"632-0-8", "empty":"476-0-8", "version_platform":"lpc17xx"},
 {}]
