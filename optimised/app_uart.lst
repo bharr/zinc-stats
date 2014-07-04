@@ -291,25 +291,25 @@ Disassembly of section .text:
  362:	f002 0280 	and.w	r2, r2, #128	; 0x80
  366:	f042 0203 	orr.w	r2, r2, #3
  36a:	60ca      	str	r2, [r1, #12]
- 36c:	f24c 020c 	movw	r2, #49164	; 0xc00c
+ 36c:	f24c 0200 	movw	r2, #49152	; 0xc000
  370:	6088      	str	r0, [r1, #8]
  372:	f2c4 0202 	movt	r2, #16386	; 0x4002
  376:	6813      	ldr	r3, [r2, #0]
- 378:	f423 4340 	bic.w	r3, r3, #49152	; 0xc000
+ 378:	f360 1305 	bfi	r3, r0, #4, #2
  37c:	6013      	str	r3, [r2, #0]
- 37e:	f8dc 2000 	ldr.w	r2, [ip]
- 382:	f442 0200 	orr.w	r2, r2, #8388608	; 0x800000
- 386:	f8cc 2000 	str.w	r2, [ip]
- 38a:	f24c 0200 	movw	r2, #49152	; 0xc000
+ 37e:	6813      	ldr	r3, [r2, #0]
+ 380:	f360 1387 	bfi	r3, r0, #6, #2
+ 384:	2000      	movs	r0, #0
+ 386:	6013      	str	r3, [r2, #0]
+ 388:	f24c 020c 	movw	r2, #49164	; 0xc00c
+ 38c:	2800      	cmp	r0, #0
  38e:	f2c4 0202 	movt	r2, #16386	; 0x4002
  392:	6813      	ldr	r3, [r2, #0]
- 394:	f360 1305 	bfi	r3, r0, #4, #2
+ 394:	f423 4340 	bic.w	r3, r3, #49152	; 0xc000
  398:	6013      	str	r3, [r2, #0]
- 39a:	6813      	ldr	r3, [r2, #0]
- 39c:	f360 1387 	bfi	r3, r0, #6, #2
- 3a0:	2000      	movs	r0, #0
- 3a2:	6013      	str	r3, [r2, #0]
- 3a4:	2800      	cmp	r0, #0
+ 39a:	f8dc 2000 	ldr.w	r2, [ip]
+ 39e:	f442 0200 	orr.w	r2, r2, #8388608	; 0x800000
+ 3a2:	f8cc 2000 	str.w	r2, [ip]
  3a6:	d14d      	bne.n	444 <main+0x378>
  3a8:	694a      	ldr	r2, [r1, #20]
  3aa:	f012 0f20 	tst.w	r2, #32
