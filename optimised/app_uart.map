@@ -22,15 +22,15 @@ Discarded input sections
                 0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  .ARM.exidx.text.rust_begin_unwind
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .ARM.exidx.text._ZN7failure5fail_20h0c9e408da717d4baIfw11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure5fail_20h792fadf377d47b24Ifw7v0.11.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .ARM.exidx.text._ZN7failure17fail_bounds_check20ha2574ed86547e1a67gw11v0.11.0.preE
+ .ARM.exidx.text._ZN7failure17fail_bounds_check20h6fed93f2e17e23567gw7v0.11.0E
                 0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .rodata.str849
+ .rodata.str850
                 0x0000000000000000        0xd /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .rodata.str851
+ .rodata.str852
                 0x0000000000000000        0xc /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .rodata.str946
+ .rodata.str947
                 0x0000000000000000        0xc /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
  .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
@@ -214,9 +214,9 @@ Linker script and memory map
  *(.text*)
  .text.main     0x00000000000000cc      0x620 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
                 0x00000000000000cc                main
- .text._ZN7failure5fail_20h0c9e408da717d4baIfw11v0.11.0.preE
+ .text._ZN7failure5fail_20h792fadf377d47b24Ifw7v0.11.0E
                 0x00000000000006ec        0x0 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
- .text._ZN7failure17fail_bounds_check20ha2574ed86547e1a67gw11v0.11.0.preE
+ .text._ZN7failure17fail_bounds_check20h6fed93f2e17e23567gw7v0.11.0E
                 0x00000000000006ec        0x0 /home/travis/build/hackndev/zinc/build/intermediate/uart/app_uart.o
  .text.isr_default_fault
                 0x00000000000006ec       0x10 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
