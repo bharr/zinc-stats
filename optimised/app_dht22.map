@@ -1,0 +1,321 @@
+Archive member included because of file (symbol)
+
+/usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                              /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o (__aeabi_ui2f)
+/usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+                              /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o (__aeabi_fmul)
+/usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+                              /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o (__aeabi_f2uiz)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .bss           0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text.main
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text.__morestack
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text._ZN3lib7strconv4itoa20hf4f10d4288141ad6S2cE
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .text.rust_stack_exhausted
+                0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text.rust_stack_exhausted
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .text.rust_eh_personality
+                0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text.rust_eh_personality
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .text.rust_begin_unwind
+                0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text.rust_begin_unwind
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text._ZN7failure5fail_20h3448a193b562ab09IfwE
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.exidx.text._ZN7failure17fail_bounds_check20he5e4f0cd9a509b3e7gwE
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .rodata.str954
+                0x0000000000000000        0xa /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .rodata.str1017
+                0x0000000000000000        0x1 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .rodata.str1018
+                0x0000000000000000        0xa /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .rodata.str1019
+                0x0000000000000000        0x5 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .bss           0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .ARM.exidx.text.isr_default_fault
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .text.rust_stack_exhausted
+                0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .ARM.exidx.text.rust_stack_exhausted
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .text.rust_eh_personality
+                0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .ARM.exidx.text.rust_eh_personality
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .text.rust_begin_unwind
+                0x0000000000000000        0x2 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .ARM.exidx.text.rust_begin_unwind
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .text          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .data          0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .bss           0x0000000000000000        0x0 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.attributes
+                0x0000000000000000       0x2f /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.memcpy   0x0000000000000000       0x14 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.memcpy
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.__aeabi_memcpy
+                0x0000000000000000        0x4 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.__aeabi_memcpy
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.memset   0x0000000000000000       0x10 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.memset
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.__aeabi_memset
+                0x0000000000000000        0xa /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.__aeabi_memset
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.breakpoint
+                0x0000000000000000        0x4 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.breakpoint
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.abort
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.__aeabi_unwind_cpp_pr1
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr1
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.get_eit_entry
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.get_eit_entry
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.unwind_phase2_forced
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.unwind_phase2_forced
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.unwind_phase2
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.unwind_phase2
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.rust_fail_bounds_check
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.rust_fail_bounds_check
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .text.rust_begin_unwind
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .ARM.exidx.text.rust_begin_unwind
+                0x0000000000000000        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000000000 0x0000000000008000 xr
+ram              0x0000000010000000 0x0000000000002000 awl
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000010002000                __STACK_BASE = 0x10002000
+                0xffffffffefffce51                _boot_checksum = (0x0 - ((((((__STACK_BASE + main) + 0x1) + isr_nmi) + 0x1) + isr_hardfault) + 0x1))
+                0x0000000000000d98                _data_load = LOADADDR (.data)
+                0x0000000000000870                PROVIDE (isr_nmi, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_hardfault, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_mmfault, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_busfault, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_usagefault, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_svcall, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_pendsv, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_systick, isr_default_fault)
+                0x00000000e000e010                armmem_SYSTICK = 0xe000e010
+                0x00000000e000e100                armmem_NVIC_ISER = 0xe000e100
+                0x00000000e000e180                armmem_NVIC_ICER = 0xe000e180
+                0x00000000e000e200                armmem_NVIC_ISPR = 0xe000e200
+                0x00000000e000e280                armmem_NVIC_ICPR = 0xe000e280
+                0x00000000e000e300                armmem_NVIC_IABR = 0xe000e300
+                0x00000000e000e400                armmem_NVIC_IPR = 0xe000e400
+                0x00000000e000ef00                armmem_NVIC_STIR = 0xe000ef00
+                0x00000000e000e008                armmem_SCB_ACTLR = 0xe000e008
+                0x00000000e000ed00                armmem_SCB = 0xe000ed00
+                0x00000000e000ed90                armmem_MPU = 0xe000ed90
+                0x0000000000000870                PROVIDE (isr_wdt, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_timer_0, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_timer_1, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_timer_2, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_timer_3, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_uart_0, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_uart_1, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_uart_2, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_uart_3, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_pwm_1, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_i2c_0, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_i2c_1, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_i2c_2, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_spi, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_ssp_0, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_ssp_1, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_pll_0, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_rtc, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_eint_0, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_eint_1, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_eint_2, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_eint_3, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_adc, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_bod, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_usb, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_can, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_dma, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_i2s, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_enet, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_rit, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_mcpwm, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_qei, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_pll_1, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_usb_activity, isr_default_fault)
+                0x0000000000000870                PROVIDE (isr_can_activity, isr_default_fault)
+                0x000000002009c000                iomem_GPIO0 = 0x2009c000
+                0x000000002009c020                iomem_GPIO1 = 0x2009c020
+                0x000000002009c040                iomem_GPIO2 = 0x2009c040
+                0x000000002009c060                iomem_GPIO3 = 0x2009c060
+                0x000000002009c080                iomem_GPIO4 = 0x2009c080
+                0x0000000040004000                iomem_TIMER0 = 0x40004000
+                0x0000000040008000                iomem_TIMER1 = 0x40008000
+                0x000000004000c000                iomem_UART0 = 0x4000c000
+                0x000000004002c000                iomem_PINSEL0 = 0x4002c000
+                0x000000004002c004                iomem_PINSEL1 = 0x4002c004
+                0x000000004002c008                iomem_PINSEL2 = 0x4002c008
+                0x000000004002c00c                iomem_PINSEL3 = 0x4002c00c
+                0x000000004002c010                iomem_PINSEL4 = 0x4002c010
+                0x000000004002c01c                iomem_PINSEL7 = 0x4002c01c
+                0x000000004002c024                iomem_PINSEL9 = 0x4002c024
+                0x000000004002c028                iomem_PINSEL10 = 0x4002c028
+                0x0000000040030000                iomem_SSP1 = 0x40030000
+                0x0000000040088000                iomem_SSP0 = 0x40088000
+                0x0000000040090000                iomem_TIMER2 = 0x40090000
+                0x0000000040094000                iomem_TIMER3 = 0x40094000
+                0x0000000040098000                iomem_UART2 = 0x40098000
+                0x000000004009c000                iomem_UART3 = 0x4009c000
+                0x00000000400fc000                iomem_FLASHCFG = 0x400fc000
+                0x00000000400fc080                iomem_PLL0CON = 0x400fc080
+                0x00000000400fc084                iomem_PLL0CFG = 0x400fc084
+                0x00000000400fc088                iomem_PLL0STAT = 0x400fc088
+                0x00000000400fc08c                iomem_PLL0FEED = 0x400fc08c
+                0x00000000400fc0c4                iomem_PCONP = 0x400fc0c4
+                0x00000000400fc104                iomem_CCLKCFG = 0x400fc104
+                0x00000000400fc10c                iomem_CLKSRCSEL = 0x400fc10c
+                0x00000000400fc1a8                iomem_PCLKSEL0 = 0x400fc1a8
+                0x00000000400fc1ac                iomem_PCLKSEL1 = 0x400fc1ac
+                0x00000000400fc1a0                iomem_SCS = 0x400fc1a0
+
+.text           0x0000000000000000      0xd98
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0x40 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+                0x0000000000000000                ISRVectors
+ *(.isr_vector_nvic)
+ .isr_vector_nvic
+                0x0000000000000040       0x8c /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+                0x0000000000000040                NVICVectors
+ FILL mask 0xff
+ *(.text*)
+ .text.main     0x00000000000000cc      0x668 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+                0x00000000000000cc                main
+ .text.__morestack
+                0x0000000000000734        0x2 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+                0x0000000000000734                __morestack
+ *fill*         0x0000000000000736        0x2 
+ .text._ZN3lib7strconv4itoa20hf4f10d4288141ad6S2cE
+                0x0000000000000738      0x136 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ *fill*         0x000000000000086e        0x2 
+ .text._ZN7failure5fail_20h3448a193b562ab09IfwE
+                0x0000000000000870        0x0 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .text._ZN7failure17fail_bounds_check20he5e4f0cd9a509b3e7gwE
+                0x0000000000000870        0x0 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .text.isr_default_fault
+                0x0000000000000870       0x10 /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+                0x0000000000000870                isr_default_fault
+ .text.abort    0x0000000000000880        0x4 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+                0x0000000000000880                abort
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000000000884        0x8 /home/travis/build/hackndev/zinc/build/intermediate/support.o
+                0x0000000000000884                __aeabi_unwind_cpp_pr0
+ .text          0x000000000000088c      0x21c /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                0x000000000000088c                __aeabi_frsub
+                0x0000000000000894                __subsf3
+                0x0000000000000894                __aeabi_fsub
+                0x0000000000000898                __aeabi_fadd
+                0x0000000000000898                __addsf3
+                0x00000000000009f8                __aeabi_ui2f
+                0x00000000000009f8                __floatunsisf
+                0x0000000000000a00                __aeabi_i2f
+                0x0000000000000a00                __floatsisf
+                0x0000000000000a1c                __floatundisf
+                0x0000000000000a1c                __aeabi_ul2f
+                0x0000000000000a2c                __floatdisf
+                0x0000000000000a2c                __aeabi_l2f
+ .text          0x0000000000000aa8      0x2a0 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+                0x0000000000000aa8                __mulsf3
+                0x0000000000000aa8                __aeabi_fmul
+                0x0000000000000c10                __divsf3
+                0x0000000000000c10                __aeabi_fdiv
+ .text          0x0000000000000d48       0x40 /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000000000d48                __aeabi_f2uiz
+                0x0000000000000d48                __fixunssfsi
+ *(.rodata .rodata.*)
+ .rodata..Lswitch.table
+                0x0000000000000d88       0x10 /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+
+.data           0x0000000010000000        0x0 load address 0x0000000000000d98
+                0x0000000010000000                _data = .
+ *(SORT(.data*))
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _edata = .
+
+.bss            0x0000000010000000        0x8 load address 0x0000000000000d98
+                0x0000000010000000                _bss = .
+ *(.bss*)
+ *(COMMON)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _ebss = .
+                0x0000000010000004                . = (. + 0x4)
+ *fill*         0x0000000010000000        0x4 
+                0x0000000010000004                __STACK_LIMIT = .
+                0x0000000010000008                . = (. + 0x4)
+ *fill*         0x0000000010000004        0x4 
+                0x0000000010000008                _eglobals = .
+
+/DISCARD/
+ *(.glue_7*)
+ *(.v4_bx)
+ *(.vfp11_veneer)
+ *(.iplt .igot.plt)
+ *(.rel.*)
+ *(.ARM.exidx*)
+LOAD /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+LOAD /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+LOAD /home/travis/build/hackndev/zinc/build/intermediate/support.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a
+OUTPUT(/home/travis/build/hackndev/zinc/build/app_dht22.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ .ARM.attributes
+                0x0000000000000000       0x2f /home/travis/build/hackndev/zinc/build/intermediate/dht22/app_dht22.o
+ .ARM.attributes
+                0x000000000000002f       0x2f /home/travis/build/hackndev/zinc/build/intermediate/isr.o
+ .ARM.attributes
+                0x000000000000005e       0x1d /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x000000000000007b       0x1d /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000000000000098       0x1d /usr/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
